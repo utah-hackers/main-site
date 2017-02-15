@@ -1,328 +1,216 @@
 <!DOCTYPE html>
-<html class="cspio">
+<html lang="en">
+
 <head>
-	<!---
-	Welcome to our free coming soon page template by http://comingsoonpage.com Get your free download at https://www.seedprod.com/free-coming-soon-page/
-	This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License
-	http://creativecommons.org/licenses/by-nc-nd/4.0/
 
-	To get started follow this checklist.
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-	1. Replace the *Page Title* on lines 23, 31 & 296
-	2. Set the *Page Description* on lines 26, 32 & 298
-	3. Set an optional *Logo* on lines 294 using the src attribute.
-	4. Set your *Facebook Profile* URL on line 312 using the href attribute.
-	5. Set your *Twitter Profile* URL on line 313 using the href attribute.
-	6. Set your *Email* on line 314 using the href attribute.
-	7. Set your background image on line 63, see file README.mb for additional background images.
-	8. Set your MailChimp email post URL on line 300 See video: https://youtu.be/YUdP1qfMot8
-	9. FTP to your Website. 
-	-->
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>Utah Hackers</title>
+    <title>Utah Hackers</title>
 
-	<meta name="generator" content="comingsoonpage.com 1.0.0" />
-	<meta name="description" content="Utah Hackers is coming soon.">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta property="og:url" content="" />
-	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Utah Hackers" />
-	<meta property="og:description" content="Utah Hackers is coming soon." />
-	
-	<!-- Font Awesome CSS -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-	<!-- Bootstrap and default Style -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
-	<link rel="stylesheet" href="https://static.comingsoonpage.com/cspio-assets/1.0.0/style.css">
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
-	<!-- Google Fonts -->
-	<link class="gf-headline" href='https://fonts.googleapis.com/css?family=Pacifico:400&subset=' rel='stylesheet' type='text/css'>
-			
-	<!-- Animate CSS -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
-	
-	<!-- Calculated Styles -->
-	<style type="text/css">
-	
-	html {
-		height: 100%;
-		overflow: hidden;
-	}
+    <!-- Theme CSS -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
 
-	body {
-		height:100%;
-		overflow: auto;
-		-webkit-overflow-scrolling: touch;
-	}
-	
-	html{
-		height:100%;
-		background: #ffffff url(https://images.unsplash.com/34/BA1yLjNnQCI1yisIZGEi_2013-07-16_1922_IMG_9873.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=bb861c990a141e90c492fe79f7ff4307); no-repeat center bottom fixed;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-	}
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-	#cspio-page{
-		background-color: rgba(0,0,0,0);
-	}
-	
-	.flexbox #cspio-page{
-		align-items: center;
-		justify-content: center;
-	}
-
-	.cspio body{
-		background: transparent;
-	}
-
-	.cspio body, .cspio body p{
-        font-family: Helvetica, Arial, sans-serif;
-		font-weight: 400;
-		font-style: ;
-        font-size: 20px;
-        line-height: 1.50em;
-        color:#ffffff;
-    }
-
-	::-webkit-input-placeholder {
-		font-family:Helvetica, Arial, sans-serif;
-		font-weight: 400;
-		font-style: ;
-	}
-
-	::-moz-placeholder {
-		font-family:Helvetica, Arial, sans-serif;
-		font-weight: 400;
-		font-style: ;
-	} 
-
-	:-ms-input-placeholder {
-		font-family:Helvetica, Arial, sans-serif;
-		font-weight: 400;
-		font-style: ;
-	} 
-
-	:-moz-placeholder {
-		font-family:Helvetica, Arial, sans-serif;
-		font-weight: 400;
-		font-style: ;
-	}
-
-    .cspio h1, .cspio h2, .cspio h3, .cspio h4, .cspio h5, .cspio h6{
-        font-family: 'Pacifico';
-        color:#ffffff;
-    }
-
-	#cspio-headline{
-		font-family: 'Pacifico';
-		font-weight: 400;
-		font-style: ;
-				font-size: 48px;
-		color:#ffffff;
-		line-height: 1.00em;
-	}
-
-	.cspio button{
-        font-family: Helvetica, Arial, sans-serif;
-		font-weight: 400;
-		font-style: ;
-    }
-	
-    .cspio a, .cspio a:visited, .cspio a:hover, .cspio a:active{
-		color: #ffffff;
-	}
-
-	#cspio-socialprofiles a {
-	  color: #ffffff;
-	}
-	.cspio .btn-primary,
-	.cspio .btn-primary:focus,
-	.gform_button,
-	#mc-embedded-subscribe, .submit-button {
-		color: black;
-		text-shadow: 0 -1px 0 rgba(255,255,255,0.3);
-		background-color: #ffffff;
-		background-image: -moz-linear-gradient(top,#ffffff,#d9d9d9);
-		background-image: -ms-linear-gradient(top,#ffffff,#d9d9d9);
-		background-image: -webkit-gradient(linear,0 0,0 100%,from(#ffffff),to(#d9d9d9));
-		background-image: -webkit-linear-gradient(top,#ffffff,#d9d9d9);
-		background-image: -o-linear-gradient(top,#ffffff,#d9d9d9);
-		background-image: linear-gradient(top,#ffffff,#d9d9d9);
-		background-repeat: repeat-x;
-		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#d9d9d9', GradientType=0);
-		border-color: #d9d9d9 #d9d9d9 #b3b3b3;
-		border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
-		*background-color: #d9d9d9;
-		filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
-	}
-
-	.cspio .btn-primary:hover,
-	.cspio .btn-primary:active,
-	.cspio .btn-primary.active,
-	.cspio .btn-primary.disabled,
-	.cspio .btn-primary[disabled],
-	.cspio .btn-primary:focus:hover,
-	.cspio .btn-primary:focus:active,
-	.cspio .btn-primary:focus.active,
-	.cspio .btn-primary:focus.disabled,
-	.cspio .btn-primary:focus[disabled],
-	#mc-embedded-subscribe:hover,
-	#mc-embedded-subscribe:active,
-	#mc-embedded-subscribe.active,
-	#mc-embedded-subscribe.disabled,
-	#mc-embedded-subscribe[disabled] {
-		background-color: #d9d9d9;
-		*background-color: #cccccc;
-	}
-
-	.cspio .btn-primary:active,
-	.cspio .btn-primary.active,
-	.cspio .btn-primary:focus:active,
-	.cspio .btn-primary:focus.active,
-	.gform_button:active,
-	.gform_button.active,
-	#mc-embedded-subscribe:active,
-	#mc-embedded-subscribe.active {
-		background-color: #bfbfbf;
-	}
-
-	.form-control,
-	.progress {
-		background-color: rgba(255, 255, 255, 0.85);
-	}
-
-	#cspio-progressbar span,
-	.countdown_section {
-		color: black;
-		text-shadow: 0 -1px 0 rgba(255,255,255,0.3);
-	}
-
-	.cspio .btn-primary:hover,
-	.cspio .btn-primary:active {
-		color: black;
-		text-shadow: 0 -1px 0 rgba(255,255,255,0.3);
-		border-color: #e6e6e6;
-	}
-
-	.cspio input[type='text']:focus {
-		webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(217,217,217,0.6);
-		-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(217,217,217,0.6);
-		box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(217,217,217,0.6);
-	}
-    
-    #cspio-content {
-		display: none;
-		max-width: 600px;
-		background-color: #000000;
-		-webkit-border-radius: 2px;
-		border-radius: 2px;
-		-moz-background-clip: padding;
-		-webkit-background-clip: padding-box;
-		background-clip: padding-box;
-		background-color:transparent;
-	}
-    
-	.cspio .progress-bar,
-	.countdown_section,
-	.cspio .btn-primary,
-	.cspio .btn-primary:focus,
-	.gform_button {
-		background-image: none;
-		text-shadow: none;
-	}
-
-	.cspio input,
-	.cspio input:focus {
-		-webkit-box-shadow: none !important;
-		box-shadow: none !important;
-	}
-							
-	#cspio-page{
-	    background: -moz-radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.2) 37%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
-	    background: -webkit-radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.2) 37%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
-	    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.2) 37%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
-	}
-
-	.cspio body{
-		background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 7%, rgba(0,0,0,0) 80%, rgba(0,0,0,0.23) 100%); 
-		background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 7%,rgba(0,0,0,0) 80%,rgba(0,0,0,0.23) 100%); 
-		background: radial-gradient(ellipse at center,  rgba(0,0,0,0) 7%,rgba(0,0,0,0) 80%,rgba(0,0,0,0.23) 100%); 
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#3b000000',GradientType=1 ); 
-	}
-
-	#cspio-subscribe-btn{
-	    background:transparent;
-	    border: 1px solid #fff !important;
-	    color: #fff;
-	}
-
-	#cspio-subscribe-btn:hover{
-	    background: rgba(255,255,255,0.2);
-	    color: #fff;
-	}
-
-	#cspio-credit img{
-		margin-left:auto;
-		margin-right:auto;
-		width:125px;
-		    margin-top: -4px;
-	}
-
-	#cspio-credit {
-		font-size:11px;
-	}
-
-	</style>
-
-	<!-- jQuery -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-	<!-- Modernizr -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-	
-	<!-- Google Analytics Code Goes Here-->
 </head>
-<body>
-	<div id="cspio-page">
-		<div id="cspio-content">
-			    				
-			<h1 id="cspio-headline">Utah Hackers</h1>			    				
-			
-			<div id="cspio-description">A collaborative meet up for technologists of all experience levels is coming soon!</div>			    				
-			
-			<div id="cspio-credit">
-					<span>Created with <a target="_blank" href="https://www.comingsoonpage.com"><img id="aff" src="https://static.comingsoonpage.com/cspio-assets/1.0.0/comingsoonpage.com-logo.png" alt="Created by ComingSoonPage.com"></a> Free download <a target="_blank" href="http://www.seedprod.com/free-coming-soon-page/" style="text-decoration:underline" alt="Get your free coming soon page.">here.</a>
-				</span></div>
-									    									    			    			    							    			     			    		
-		</div><!-- end of #cspio-content -->
-	</div>
 
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-	<script>
-		// Animate Delay
-		setTimeout(function(){ jQuery("#cspio-content").show().addClass('animated fadeIn'); }, 250);
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    Utah Hackers
+                </a>
+            </div>
 
-		// Reseize	
-		function resize(){
-				$('head').append("<style id='form-style' type='text/css'></style>");
-				$('#form-style').html('.cspio .input-group-btn, .cspio .input-group{display:block;width:100%;}.cspio #cspio-subscribe-btn{margin-left:0;width:100%;display:block;}.cspio .input-group .form-control:first-child, .cspio .input-group-addon:first-child, .cspio .input-group-btn:first-child>.btn, .cspio .input-group-btn:first-child>.dropdown-toggle, .cspio .input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle) {border-bottom-right-radius: 4px;border-top-right-radius: 4px;}.cspio .input-group .form-control:last-child, .cspio .input-group-addon:last-child, .cspio .input-group-btn:last-child>.btn, .cspio .input-group-btn:last-child>.dropdown-toggle, .cspio .input-group-btn:first-child>.btn:not(:first-child) {border-bottom-left-radius: 4px;border-top-left-radius: 4px;}');
-		}
-		
-		$('#cspio-content').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', 
-			function(){
-				var width = $('#cspio-field-wrapper').width();
-				if(width < 480 && width != 0){
-					resize();
-				}
-			}
-		);
-	</script>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#meetings">Meetings</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 
-	</body>
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">Utah Hackers</h1>
+                        <p class="intro-text">
+                            A collaborative community excited by learning new technologies and increasing our breadth and depth of experience in all aspects of software development.
+                        </p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>About Utah Hackers</h2>
+                <p>
+                    One of the best ways to learn anything is to do it. Utah Hackers facilitates members working together on prototypes,
+                    toy projects, big ideas, and generally any software project they can share with the group. Projects don't have to be
+                    officially open source, but they should not be anything related to an NDA, or anything people would fight over if it
+                    started making money.
+                </p>
+                <h3>Meeting Formats</h3>
+                <p>
+                    Meetings follow one of two formats:
+                </p>
+                <p>
+                    Second Tuesday of every Month: <strong>Updates and Pitches</strong>
+                </p>
+                <p>
+                    Updates:
+                </p>
+                <p>
+                    Any attendee can take the floor for up to 15 minutes to give an update or demo of the project they've been working on.
+                </p>
+                <p>
+                    Pitches:
+                </p>
+                <p>
+                    Any attendee can take the floor and explain:<br/>
+                    <br/>
+                      what they're working on, and would like help with<br/>
+                      -OR-<br/>
+                      something they know, or would like to learn, and see if anyone has a related project they could help with<br/>
+                      -OR-<br/>
+                      a topic they want to have a discussion about
+                </p>
+                <p>
+                    Open Hack:
+                </p>
+                <p>
+                    Grab someone who's pitch you liked and get some work done, talk to one of the presenters about their project, whatever...
+                </p>
+                <p>
+                    All Other Tuesdays: <strong>Open Hack</strong>
+                </p>
+                <p>
+                    Meet your collaborators in our space and get some work done. Use Utah Hackers as an accountability group to
+                    make sure you make progress on your project every week.
+                </p>
+                <p>
+                    Meetings are open to:
+                </p>
+                <ul>
+                    <li>technologists of all experience levels</li>
+                    <li>creators using any technology</li>
+                    <li>only nice people, no jerks</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="meetings" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Meetings</h2>
+                    <p>
+                        Meetings are held between 5:30pm and 8:30pm in the Apple Leisure Group office in downtown SLC.
+                    </p>
+                    <p>
+                        515 South 700 East<br/>
+                        Suite 3E<br/>
+                        Salt Lake City, UT, 84102<br/>
+                    </p>
+                    <p>
+                        The office is on the third floor in the south west corner of the building. It's the same building
+                        as 24 hour fitness.
+                    </p>
+                    <p>
+                        TODO: Put a calendar of meetings and their formats here. Keep it updated with when the meeting is canceled.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Contact Utah Hackers</h2>
+                <p>
+                    TODO: Put a way to request an invite to the slack channel here.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <!--<div id="map"></div>-->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/grayscale.min.js"></script>
+
+</body>
+
 </html>
-
-<!-- This page was generated by ComingSoonPage.com | Learn more: http://www.comingsoonpage.com -->
