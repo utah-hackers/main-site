@@ -7,4 +7,4 @@ deployment:
     branch: master
     owner: utah-hackers
     commands:
-      - aws s3 ./src s3://utahhackers.org
+      - aws s3 sync ./src s3://utahhackers.org
