@@ -1,0 +1,6 @@
+deployment:
+  production:
+    branch: master
+    owner: utah-hackers
+    commands:
+      - aws s3 ./src s3://utahhackers.org
