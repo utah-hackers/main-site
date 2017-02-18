@@ -1,3 +1,7 @@
+test:
+  post:
+    - touch ./no-op.txt
+
 deployment:
   production:
     branch: master
